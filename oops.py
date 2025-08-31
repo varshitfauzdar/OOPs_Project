@@ -9,7 +9,7 @@ class chatbook:
         self.username = ''
         self.password = ''
         self.loggedin = False
-        # self.menu()
+        self.menu()
 
     @staticmethod
     def get_id():
@@ -92,4 +92,4 @@ class chatbook:
         self.menu()
 
 
-# user1 = chatbook()
+user1 = chatbook()
